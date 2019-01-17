@@ -6,7 +6,4 @@ class PagesController < ApplicationController
 
   def dashboard
   end
-
-  def message
-  end
 end
