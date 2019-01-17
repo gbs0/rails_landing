@@ -4,6 +4,6 @@ class MessagesController < ApplicationController
   end
 
   def index
- 		@index = params[:category]
+ 		
   end
 end
