@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get 'message', to: 'messages#index', as: :message
   get 'dashboard', to: 'pages#dashboard', as: :dashboard
+  get 'shop', to: 'pages#shop', as: :shop
 
   #resoures :message, only: [:show]   # ?
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
